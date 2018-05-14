@@ -1,0 +1,77 @@
+body
+{
+	margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+
+	font-family: 'Quicksand', sans-serif;
+
+    background: #0e0e0e;
+}
+h1
+{
+    /*font-size: 15px;*/
+    font-weight: 300;
+}
+p
+{
+    /*font-size: 25px;
+    font-weight: 700;*/
+}
+.container
+{
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+.dark
+{
+    background-color: #2c2f33;
+    color: rgb(200, 200, 200);
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    background: linear-gradient(to bottom right, #0e0e0e, #2c2f33);
+}
+
+.light
+{
+    background-color: #325066;
+    color: rgb(230, 230, 230);
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    background: linear-gradient(to top left, #325066, #2c2f33);
+}
+
+.main
+{
+    background-image: url(../img/jumbotron_main.jpg);
+    filter: 
+        blur(2px) 
+        saturate(0.85)
+        contrast(0.85) 
+        brightness(0.95)
+        ;
+
+    padding-bottom: 35%;
+    margin: 0 0 0 0;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+}
+
+.title
+{
+    padding-top: 0%;
+    padding-bottom: 4%;
+}
+.noselect 
+{
+    -webkit-user-select: none; /* Safari */    
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently*/
+}
